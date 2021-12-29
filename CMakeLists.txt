@@ -3,7 +3,7 @@ project(Games_SFML)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Games_SFML main.cpp)
+add_executable(Games_SFML main.cpp headers/main.h headers/input.h input.cpp)
 
 include_directories(headers c:/SFML/include)
 
